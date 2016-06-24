@@ -1,0 +1,12 @@
+# config/application.yml
+defaults: &defaults
+  title: "Aperx System"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
