@@ -1,0 +1,15 @@
+%lato {
+  font-family: 'Lato', sans-serif;
+}
+
+%source-sans-pro {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  @extend %source-sans-pro;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}

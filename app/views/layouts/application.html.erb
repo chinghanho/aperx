@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= I18n.locale %>">
 <head>
+
+  <!-- Basic meta -->
+  <meta charset="UTF-8">
   <title>Aperx</title>
+
+  <!-- load Google Fonts: Lato & Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Sans+Pro" rel="stylesheet">
+
+  <!-- load CSS -->
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+
+  <!-- CSRF params -->
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
+
+<!-- load Javascript -->
+<%= javascript_include_tag 'application' %>
 
 </body>
 </html>

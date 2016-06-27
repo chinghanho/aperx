@@ -16,6 +16,7 @@ gem 'uglifier', '~> 3.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Assets
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'vuejs-rails', '~> 1.0', '>= 1.0.24'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem 'autoprefixer-rails', '~> 6.3', '>= 6.3.6.2'
