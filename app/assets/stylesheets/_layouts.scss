@@ -1,0 +1,34 @@
+body {
+  font-size: 16px;
+  line-height: 1;
+}
+
+// source: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// source: http://wtfhtmlcss.com/#floats-clearing
+%clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix {
+  @extend %clearfix;
+}
+
+.container {
+  @extend %clearfix;
+  width: 1280px;
+  margin: 0 auto;
+}

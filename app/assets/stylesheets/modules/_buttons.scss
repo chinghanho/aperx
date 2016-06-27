@@ -1,0 +1,27 @@
+.btn {
+  border: 1px solid transparent;
+  font-size: 14px;
+  background-color: transparent;
+  color: $gray-dark;
+  display: inline-block;
+  padding: 12px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-default {
+  border-color: $gray-dark;
+  &:hover {
+    border-color: $gray-darker;
+    color: $gray-darker;
+  }
+  &:focus {
+    box-shadow: 0 0 5px $color-brand;
+  }
+}
+
+.btn-block {
+  display: block;
+  text-align: center;
+  width: 100%;
+}

@@ -1,1 +1,38 @@
-sessions#new
+<div class="container">
+
+  <div class="sessions-header">
+
+    <h1 class="brand-name"><%= Settings.title %></h1>
+
+  </div>
+
+  <%= form_for :session, html: { role: "form", class: "sessions-form" } do |f| %>
+
+    <div class="form-group">
+
+      <%= f.label :email, "電子郵件", class: "form-label" %>
+      <div class="form-input">
+        <%= f.email_field :email, class: "form-control", tabindex: 1 %>
+      </div>
+
+    </div>
+
+
+    <div class="form-group">
+
+      <%= f.label :password, "密碼", class: "form-label" %>
+      <div class="form-input">
+        <%= f.password_field :password, class: "form-control", tabindex: 2 %>
+      </div>
+
+    </div>
+
+    <div class="form-actions">
+
+      <%= f.submit "登入", class: "btn btn-default btn-block", tabindex: 3 %>
+
+    </div>
+
+  <% end %>
+
+</div>
