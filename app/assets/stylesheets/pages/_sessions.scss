@@ -1,11 +1,8 @@
 .sessions-header {
 
   .brand-name {
-    @extend %lato;
-    font-weight: 300;
+    @extend %brand-name;
     text-align: center;
-    font-size: 28px;
-    text-transform: uppercase;
     letter-spacing: 10.6px;
     padding: 55px 0 40px;
     color: $gray-darker;
