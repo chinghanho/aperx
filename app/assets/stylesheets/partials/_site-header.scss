@@ -1,0 +1,21 @@
+.site-header {
+
+  padding: 25px 0;
+
+  .brand-name {
+
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+
+    a {
+      @extend %brand-name;
+      color: $gray-darker;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      padding: 10px 0;
+    }
+  }
+}

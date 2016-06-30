@@ -6,6 +6,14 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+%brand-name {
+  @extend %lato;
+  font-size: 19px;
+  letter-spacing: 10.5px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 body {
   @extend %source-sans-pro;
   font-weight: normal;

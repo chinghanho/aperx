@@ -29,18 +29,14 @@
   }
 
   .brand-name {
-    @extend %lato;
+    @extend %brand-name;
     color: $color-white;
     text-align: center;
     position: relative;
     z-index: 500;
-    font-size: 19px;
-    letter-spacing: 10.5px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1.4s ease-in, transform 900ms ease;
-    text-transform: uppercase;
-    font-weight: 300;
   }
 
   &.in .brand-name {
