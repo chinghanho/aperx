@@ -1,0 +1,198 @@
+.g {
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    -ms-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+.g1,
+.g1-1,
+.g1-2,
+.g1-3,
+.g2-3,
+.g1-4,
+.g3-4,
+.g1-6,
+.g5-6,
+.g1-8,
+.g3-8,
+.g5-8,
+.g7-8,
+.g1-12,
+.g5-12,
+.g7-12,
+.g11-12,
+.g1-24,
+.g2-24,
+.g3-24,
+.g4-24,
+.g5-24,
+.g6-24,
+.g7-24,
+.g8-24,
+.g9-24,
+.g10-24,
+.g11-24,
+.g12-24,
+.g13-24,
+.g14-24,
+.g15-24,
+.g16-24,
+.g17-24,
+.g18-24,
+.g19-24,
+.g20-24,
+.g21-24,
+.g22-24,
+.g23-24,
+.g24-24 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.g1-24 {
+    width: 4.1667%;
+    *width: 4.1357%;
+}
+
+.g1-12,
+.g2-24 {
+    width: 8.3333%;
+    *width: 8.3023%;
+}
+
+.g1-8,
+.g3-24 {
+    width: 12.5000%;
+    *width: 12.4690%;
+}
+
+.g1-6,
+.g4-24 {
+    width: 16.6667%;
+    *width: 16.6357%;
+}
+
+.g5-24 {
+    width: 20.8333%;
+    *width: 20.8023%;
+}
+
+.g1-4,
+.g6-24 {
+    width: 25%;
+    *width: 24.9690%;
+}
+
+.g7-24 {
+    width: 29.1667%;
+    *width: 29.1357%;
+}
+
+.g1-3,
+.g8-24 {
+    width: 33.3333%;
+    *width: 33.3023%;
+}
+
+.g3-8,
+.g9-24 {
+    width: 37.5000%;
+    *width: 37.4690%;
+}
+
+.g5-12,
+.g10-24 {
+    width: 41.6667%;
+    *width: 41.6357%;
+}
+
+.g11-24 {
+    width: 45.8333%;
+    *width: 45.8023%;
+}
+
+.g1-2,
+.g12-24 {
+    width: 50%;
+    *width: 49.9690%;
+}
+
+.g13-24 {
+    width: 54.1667%;
+    *width: 54.1357%;
+}
+
+.g7-12,
+.g14-24 {
+    width: 58.3333%;
+    *width: 58.3023%;
+}
+
+.g5-8,
+.g15-24 {
+    width: 62.5000%;
+    *width: 62.4690%;
+}
+
+.g2-3,
+.g16-24 {
+    width: 66.6667%;
+    *width: 66.6357%;
+}
+
+.g17-24 {
+    width: 70.8333%;
+    *width: 70.8023%;
+}
+
+.g3-4,
+.g18-24 {
+    width: 75%;
+    *width: 74.9690%;
+}
+
+.g19-24 {
+    width: 79.1667%;
+    *width: 79.1357%;
+}
+
+.g5-6,
+.g20-24 {
+    width: 83.3333%;
+    *width: 83.3023%;
+}
+
+.g7-8,
+.g21-24 {
+    width: 87.5000%;
+    *width: 87.4690%;
+}
+
+.g11-12,
+.g22-24 {
+    width: 91.6667%;
+    *width: 91.6357%;
+}
+
+.g23-24 {
+    width: 95.8333%;
+    *width: 95.8023%;
+}
+
+.g1,
+.g1-1,
+.g24-24 {
+    width: 100%;
+}
