@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20160702023024) do
     t.string   "path"
     t.integer  "photoable_id"
     t.string   "photoable_type"
+    t.datetime "taken_at"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end

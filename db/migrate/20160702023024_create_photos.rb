@@ -4,6 +4,7 @@ class CreatePhotos < ActiveRecord::Migration
       t.string :path
       t.integer :photoable_id
       t.string :photoable_type
+      t.datetime :taken_at
 
       t.timestamps null: false
     end

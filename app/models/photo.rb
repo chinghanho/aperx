@@ -6,6 +6,7 @@
 #  path           :string
 #  photoable_id   :integer
 #  photoable_type :string
+#  taken_at       :datetime
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
 #
