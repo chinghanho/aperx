@@ -17,6 +17,8 @@
 
 class User < ActiveRecord::Base
 
+  include Sortable
+
   attr_accessor :remember_token, :reset_token
 
   enum role: [:admin, :user]
