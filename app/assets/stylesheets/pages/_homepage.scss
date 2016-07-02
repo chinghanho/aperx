@@ -37,6 +37,7 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1.4s ease-in, transform 900ms ease;
+    text-decoration: none;
   }
 
   &.in .brand-name {
