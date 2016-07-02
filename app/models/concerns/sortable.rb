@@ -1,4 +1,4 @@
-e# == Sortable concern
+# == Sortable concern
 #
 # Set default scope for ordering objects
 #
