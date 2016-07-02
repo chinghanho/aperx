@@ -1,10 +1,12 @@
 .sessions-header {
 
   .brand-name {
+    margin: 0;
+    padding: 0;
     @extend %brand-name;
     text-align: center;
     letter-spacing: 10.6px;
-    padding: 55px 0 40px;
+    padding: 55px 0 50px;
     color: $gray-darker;
   }
 
