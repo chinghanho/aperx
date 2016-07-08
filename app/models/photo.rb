@@ -22,6 +22,7 @@ class Photo < ActiveRecord::Base
   # Relations
   #
   belongs_to :photoable, polymorphic: true
+  has_one :exif, dependent: :destroy
 
 
 
