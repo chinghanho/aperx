@@ -1,0 +1,15 @@
+$card-padding: 6px;
+
+.cards-wrapper {
+  margin-top:   -$card-padding;
+  margin-left:  -$card-padding;
+  margin-right: -$card-padding;
+}
+
+.card {
+  padding: $card-padding;
+}
+
+.card-default {
+  background-color: hsla(0, 0, 100%, 1);
+}
