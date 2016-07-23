@@ -1,6 +1,6 @@
 # config/application.yml
 defaults: &defaults
-  title: "Aperx System"
+  title: "Aperx"
 
 development:
   <<: *defaults
