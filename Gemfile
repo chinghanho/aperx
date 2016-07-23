@@ -50,10 +50,9 @@ gem 'faker', '~> 1.6', '>= 1.6.3'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-
   gem 'pry-rails', '~> 0.3.4'
   gem 'pry-remote', '~> 0.1.8'
-
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.1'
 end
 
 group :development do
