@@ -1,3 +1,5 @@
+// Rails 預設使用 jquery_ujs 的來驅動 request method，但是因為 Aperx 採用 Zepto 取代 jQuery 讓原
+// 本的jquery_ujs 沒有辦法正常使用，在加上想要縮小檔案大小節省的傳輸網路資源的開銷，因此另外寫了此腳本解決。
 (function () {
 
   'use strict'

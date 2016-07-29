@@ -1,33 +1,28 @@
+// 這是個控制管理介面首頁效果的腳本，等待背景圖片載入完成後執行後續的動態效果。
 (function () {
 
+    'use strict'
 
-  //
-  // 這是個控制管理介面首頁效果的腳本，等待背景圖片載入完成後
-  //
-  // 執行後續的動態效果。
-  //
+    var hero = document.getElementsByClassName('js-hero')
 
+    // 如果不是在管理介面首頁，後面的東西就不需要執行了
+    if (hero.length === 0) { return }
 
-  var hero = document.getElementsByClassName('js-hero')
+    hero = hero[0]
 
-  // 如果不是在管理介面首頁，後面的東西就不需要執行了
-  if (hero.length === 0) { return }
+    hero.className += " in"
 
-  hero = hero[0]
+    var bgURL = hero.dataset.bg
 
-  hero.className += " in"
+    var bgImg = new Image()
 
-  var bgURL = hero.dataset.bg
+    bgImg.onload = function () {
 
-  var bgImg = new Image()
+      hero.style.backgroundImage = 'url(' + bgURL + ')'
+      hero.className += " bg-in"
 
-  bgImg.onload = function () {
+    }
 
-    hero.style.backgroundImage = 'url(' + bgURL + ')'
-    hero.className += " bg-in"
-
-  }
-
-  bgImg.src = bgURL
+    bgImg.src = bgURL
 
 })()
