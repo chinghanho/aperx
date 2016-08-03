@@ -11,27 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160708151802) do
+ActiveRecord::Schema.define(version: 20160702023024) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "exifs", force: :cascade do |t|
-    t.string   "camera_model"
-    t.string   "len_model"
-    t.string   "f_number"
-    t.string   "iso"
-    t.string   "shutter_speed_value"
-    t.string   "focal_length"
-    t.string   "gps_version"
-    t.point    "coordinate"
-    t.text     "raw"
-    t.integer  "photo_id"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
-  end
-
-  add_index "exifs", ["photo_id"], name: "index_exifs_on_photo_id", using: :btree
 
   create_table "photos", force: :cascade do |t|
     t.string   "path"
@@ -55,5 +38,4 @@ ActiveRecord::Schema.define(version: 20160708151802) do
     t.datetime "updated_at",      null: false
   end
 
-  add_foreign_key "exifs", "photos"
 end
